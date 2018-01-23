@@ -3,3 +3,6 @@
 
 Este repositório foi construído para o Dojo Spring com Microserviços.
 
+###Notas auxiliares:
+
+Conectar no h2: localhost:8080 | jdbc:h2:mem:testdb

@@ -2,10 +2,8 @@ package br.com.dbccompany.dojo.domain;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.Set;
 
 /**
  * Created by jt on 9/27/17.
@@ -20,4 +18,9 @@ public class Cliente {
 
     private String primeiroNome;
     private String ultimoNome;
+
+    @ManyToMany
+//    @JoinTable(name="clientes_enderecos",joinColumns = @JoinColumn(name="cliente_id"),
+//            inverseJoinColumns = @JoinColumn(name="endereco_id"))
+    private Set<Endereco> enderecos;
 }
