@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>guru.springfamework</groupId>
+    <groupId>br.com.dbccompany.dojo</groupId>
     <artifactId>spring5-mvc-rest</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>spring5-mvc-rest</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Projeto de demonstração para o Spring Dojo da DBC</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
